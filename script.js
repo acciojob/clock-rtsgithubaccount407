@@ -8,7 +8,7 @@ function livetime() {
   document.getElementById('timer').textContent = cudate + ', ' + time;
 }
 
-function startTime(){
+function startTimer(){
 	livetime()
 	setInterval(livetime,1000)
 }
