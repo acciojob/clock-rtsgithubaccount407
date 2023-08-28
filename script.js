@@ -7,8 +7,9 @@ function livetime() {
   let cudate = `${month}/${day}/${year}`;
   document.getElementById('timer').textContent = cudate + ', ' + time;
 }
-livetime()
+
 function startTime(){
+	livetime()
 	setInterval(livetime,1000)
 }
 window.addEventListener('load' ,startTimer)
